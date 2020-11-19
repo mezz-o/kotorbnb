@@ -54,6 +54,7 @@ module.exports = {
         includePaths: [path.resolve(__dirname, "src/style")],
       },
     },
+
     {
       resolve: "gatsby-plugin-prefetch-google-fonts",
       options: {
