@@ -7,6 +7,7 @@ import SectionHeader from "components/SectionHeader";
 import PortfolioItem from "components/PortfolioItem";
 import PageSection from "components/PageSection";
 import "./Portfolio.scss";
+import Package from "components/Package";
 
 const Portfolio = ({ className, frontmatter }) => {
   if (!frontmatter) {
@@ -16,6 +17,7 @@ const Portfolio = ({ className, frontmatter }) => {
   const { anchor, header: rootHeader, subheader: rootSubHeader, portfolios } = frontmatter;
 
   return (
+    <div>
     <PageSection className={clsx("portfolio-section", className)} id={anchor}>
       <Row>
         <SectionHeader header={rootHeader} subheader={rootSubHeader} />
@@ -41,8 +43,18 @@ const Portfolio = ({ className, frontmatter }) => {
           ),
         )}
       </Row>
-    </PageSection>
+      </PageSection>
+      <PageSection className={clsx("Package", className)} id={anchor}>
+      <Package />
+      </PageSection>
+
+      </div>
+   
+ 
+  
   );
+
+
 };
 
 Portfolio.propTypes = {
