@@ -1,5 +1,5 @@
 import React from 'react';
-import { Form, Button } from 'react-bootstrap';
+import { Button } from 'react-bootstrap';
 
 
 
@@ -11,28 +11,9 @@ const ContactForm = () => {
   <form method="post" name="contact" data-netlify="true" data-netlify-honeypot="bot-field">
 <input type="hidden" name="form-name" value="contact" />
 
-<Form.Group  controlId="exampleForm.ControlInput1">
-
-              <Form.Label>Name</Form.Label>
-              <Form.Control
-                type="text"
-                placeholder="Your name"
-                
-              />
-                </Form.Group>
-
-  <Form.Group controlId="exampleForm.ControlInput1">
-    <Form.Label>Email address</Form.Label>
-    <Form.Control type="email" placeholder="name@example.com" />
-  </Form.Group>
-
-
-  <Form.Group controlId="exampleForm.ControlTextarea1">
-    <Form.Label>Message</Form.Label>
-    <Form.Control as="textarea" rows={3} 
-    placeholder="Your message..."
-/>
-  </Form.Group>
+<input type="text" name="name" />
+  <input type="email" name="email" />
+  <textarea name="message" />
 <div align="center">
       <Button  type="submit">Send your message</Button>
       </div>
