@@ -8,7 +8,9 @@ const ContactForm = () => {
 <div >
   <h1 align="center">CONTACT</h1>
   <br />
-<Form name="contact" method="POST" data-netlify="true" >
+<Form name="contact" method="post" netlify netlify-honeypot="bot-field" >
+<input type="hidden" name="form-name" value="contact" />
+
 <Form.Group  controlId="exampleForm.ControlInput1">
 
               <Form.Label>Name</Form.Label>
