@@ -1,5 +1,5 @@
 ---
-anchor: "Package"
-header: "Package"
+anchor: "Pricing"
+header: "Pricing"
 
 ---

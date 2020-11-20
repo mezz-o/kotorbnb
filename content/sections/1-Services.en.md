@@ -1,7 +1,7 @@
 ---
 anchor: "Services"
 header: "Services"
-subheader: "We take care of your rental. Our services are fully automated."
+subheader: "We take care of all your rental aspects."
 services: [
   {
     iconName: "ShoppingCartIcon",

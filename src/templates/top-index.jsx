@@ -51,8 +51,6 @@ export const query = graphql`
             imageFileNameDetail
             imageFileName
           }
-          privacyHref
-          privacyText
           services {
             content
             header
@@ -80,8 +78,6 @@ export const query = graphql`
             subheader
           }
           telephone
-          termsHref
-          termsText
           title
           timeline {
             content

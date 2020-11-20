@@ -7,7 +7,9 @@ import SectionHeader from "components/SectionHeader";
 import PortfolioItem from "components/PortfolioItem";
 import PageSection from "components/PageSection";
 import "./Portfolio.scss";
-import Package from "components/Package";
+import Pricing from "components/Pricing";
+import ContactForm from "components/Form";
+
 
 const Portfolio = ({ className, frontmatter }) => {
   if (!frontmatter) {
@@ -44,9 +46,16 @@ const Portfolio = ({ className, frontmatter }) => {
         )}
       </Row>
       </PageSection>
-      <PageSection className={clsx("Package", className)} id={anchor}>
-      <Package />
-      </PageSection>
+      <section className={clsx("Pricing", className)} id={anchor}>
+
+<Pricing   />
+
+      </section>
+
+<PageSection section className={clsx("Contact", className)} id={anchor}>
+<ContactForm   />
+
+</PageSection>
 
       </div>
    

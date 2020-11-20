@@ -20,6 +20,7 @@ const Footer = ({ frontmatter }) => {
 
   return (
     <footer className="footer py-3">
+
       <Container>
         <Row className="align-items-center text-center">
           <Col lg={5} className="text-lg-left">
