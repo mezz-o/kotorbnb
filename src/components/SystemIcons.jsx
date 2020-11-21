@@ -7,6 +7,8 @@ import {
   faBars,
   faTimes,
   faGlobe,
+  faHome,
+  faKey,
 } from "@fortawesome/free-solid-svg-icons";
 import {
   faTwitter,
@@ -14,6 +16,7 @@ import {
   faLinkedinIn,
   faGithubAlt,
   faMediumM,
+  faAirbnb,
 } from "@fortawesome/free-brands-svg-icons";
 
 export const PhoneIcon = makeFAIcon(faPhone);
@@ -28,5 +31,11 @@ export const LanguageIcon = makeFAIcon(faGlobe);
 export const TwitterIcon = makeFAIcon(faTwitter);
 export const FacebookIcon = makeFAIcon(faFacebookF);
 export const LinkedinIcon = makeFAIcon(faLinkedinIn);
+export const Home2Icon = makeFAIcon(faHome);
+export const KeyIcon = makeFAIcon(faKey);
+export const BnbIcon = makeFAIcon(faAirbnb);
+
+
+
 
 export * from "config/CustomIcons";

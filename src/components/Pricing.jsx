@@ -128,8 +128,12 @@ You can choose the solution that suits you best.        </p>
                     ))}
                   </ul> <br /> <br />
                   <div className={classes.cardPricing}>
-                    <h1>
-                      {tier.price} <small>commission</small>
+                    <h1 style={{ color:'#868e96'}}>
+                      {tier.price} <small style={{ fontFamily:'Montserrat, sans-serif', fontSize: '16px',
+    fontWeight: '400',
+    fontStyle: 'italic',
+    marginBottom: '75px',
+    textTransform: 'none', color:'#868e96' }}> COMMISSION INCL. TAX</small>
                     </h1>
                  
                   </div>
