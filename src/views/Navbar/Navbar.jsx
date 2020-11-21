@@ -43,9 +43,9 @@ const MyNavbar = ({ anchors, frontmatter, extraItems }) => {
       fixed="top"
       expanded={expanded}
     >
-      <Container style={{ height:"7rem" }}>
+      <Container >
         <Navbar.Brand className="cursor-pointer" onClick={handleBrandClick}>
-         <img  alt="logo" src={require('content/assets/images/kotorkeys.png')} />
+         <img style={{ height:"100px" }}  alt="logo" src={require('content/assets/images/kotorkeys.png')} />
         </Navbar.Brand>
         <Navbar.Toggle onClick={toggleMenu} aria-label="Toggle navigation">
           {menuText}
