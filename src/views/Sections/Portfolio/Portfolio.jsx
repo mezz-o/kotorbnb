@@ -36,18 +36,16 @@ const Portfolio = ({ className, frontmatter }) => {
         )}
       </Row>
       </PageSection>
-      <PageSection  style={{marginTop:"-100px"}} className={clsx("Pricing", className)} id={anchor}>
+      <PageSection style={{ marginTop:"-100px" }} className={clsx("Pricing", className)} id={anchor}>
 
 <Pricing  />
 
       </PageSection>
-
 <PageSection section className={clsx("Contact", className)} id={anchor}>
 <ContactForm   />
 
 </PageSection>
-
-      </div>
+</div>
    
  
   
