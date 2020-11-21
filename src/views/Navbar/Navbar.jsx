@@ -13,7 +13,7 @@ import NavItem from "components/NavItem";
 import "./Navbar.scss";
 
 const MyNavbar = ({ anchors, frontmatter, extraItems }) => {
-  const { brand, menuText } = frontmatter;
+  const { menuText } = frontmatter;
 
   const handleScrollToTop = useSmoothScrollTo(0);
 
@@ -43,9 +43,9 @@ const MyNavbar = ({ anchors, frontmatter, extraItems }) => {
       fixed="top"
       expanded={expanded}
     >
-      <Container>
+      <Container style={{ height:"7rem" }}>
         <Navbar.Brand className="cursor-pointer" onClick={handleBrandClick}>
-          {brand}
+         <img  alt="logo" src={require('content/assets/images/kotorkeys.png')} />
         </Navbar.Brand>
         <Navbar.Toggle onClick={toggleMenu} aria-label="Toggle navigation">
           {menuText}

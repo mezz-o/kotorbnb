@@ -1,7 +1,7 @@
 ---
-anchor: "サービス"
-header: "サービス"
-subheader: "あなたは偶然断然その持通りについて事のためにまかり出ですた。"
+anchor: "Services"
+header: "Services"
+subheader: "Nous prenons en charge tous les aspects de votre location"
 services: [
   {
     iconName: "ShoppingCartIcon",

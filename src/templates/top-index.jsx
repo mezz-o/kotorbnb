@@ -34,8 +34,9 @@ export const query = graphql`
         frontmatter {
           brand
           anchor
+
       
-          content
+          
           copyright
           header
           email
@@ -44,11 +45,6 @@ export const query = graphql`
           jumpToAnchorText
           menuText
           portfolios {
-            content
-            extraInfo
-            header
-            subheader
-            imageFileNameDetail
             imageFileName
           }
           services {
@@ -65,27 +61,10 @@ export const query = graphql`
             twitter
           }
           subheader
-          teamMember {
-            header
-            imageFileName
-            social {
-              facebook
-              github
-              linkedin
-              medium
-              twitter
-            }
-            subheader
-          }
+  
           telephone
           title
-          timeline {
-            content
-            header
-            imageContent
-            imageFileName
-            subheader
-          }
+       
         }
         fields {
           fileName

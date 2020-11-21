@@ -1,4 +1,4 @@
 ---
-brand: "KotorKeys"
+brand: "KK"
 menuText: "Menu "
 ---
