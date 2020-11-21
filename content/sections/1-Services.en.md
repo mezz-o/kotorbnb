@@ -10,13 +10,13 @@ services: [
   },
   {
     iconName: "LaptopIcon",
-    header: "Household",
+    header: "Professional cleaning",
     content: "We are very strict about housekeeping. We know how essential a perfectly clean home is. Especially with Covid19. Sheets and linen are thoroughly washed, dried and ironed. "
   },
   {
     iconName: "LockIcon",
     header: "Account management",
-    content: "We take care of maximizing the audience of your Airbnb ads with high quality photos and content. We manage all exchanges with your guests. Thanks to our technology you keep total control of your host account and you can see everything that happens there."
+    content: "We take care of maximizing the audience of your Airbnb listings with high quality photos and content. You valid the reservations, we manage all exchanges with your guests."
   }
 ]
 ---
