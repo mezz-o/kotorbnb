@@ -22,7 +22,7 @@ const ContactForm = () => {
   <textarea style={{   width: "75%", borderStyle:"none",  height:'150px', borderRadius:"5px"
  }} name="message" placeholder="Your message" /> <br />
 <div style={{ paddingTop:"2rem" }} align="center">
-      <Button style={{ color:"ECEC85" }} type="submit">Send your message</Button>
+      <Button style={{ color:"ECEC85" }} type="submit">Send your message</Button> 
       </div>
       <br />
 

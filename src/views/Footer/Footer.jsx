@@ -23,7 +23,7 @@ const Footer = ({ frontmatter }) => {
 
       <Container >
         <Row className="align-items-center text-center">
-          <Col className="text-lg">
+          <Col className="text-lg" style={{color:" #868e96"}}>
             {copyright}
           </Col>
           {/* <Col lg={3} className="my-3 my-lg-0">

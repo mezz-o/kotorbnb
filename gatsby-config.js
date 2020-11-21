@@ -19,7 +19,7 @@ module.exports = {
         background_color: "#ffffff",
         theme_color: "#fed136",
         display: "minimal-ui",
-        icon: "content/assets/kotorkeys.png",
+        icon: "content/assets/logokk.png",
       },
     },
     "gatsby-transformer-remark",
