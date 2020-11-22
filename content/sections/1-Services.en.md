@@ -16,7 +16,7 @@ services: [
   {
     iconName: "BnbIcon",
     header: "Account management",
-    content: "We take care of all the management of your Airbnb account: handle online reservations, update calendar & pricing, messaging with guest, respond to guest issues, review guest. We can also take care of maximizing the audience of your Airbnb listings with high quality photos and content."
+    content: "We manage your Airbnb account as a co-host: handle online reservations, update calendar & pricing, messaging with guest, respond to guest issues, review guest. We can also take care of maximizing the audience of your Airbnb listing with high quality photos and content."
   }
 ]
 ---
