@@ -61,10 +61,16 @@ const tiers = [
   {
     title: 'ProHost',
     price: '20%',
-    description: ['✔️ Check-in / Check-out',
-    '✔️ Professional cleaning',
-    '✔️ Airbnb messaging management',
-    '✔️ Availability 24/7',],
+    description: [     
+    '✔️ Check-in / Check-out',
+    '✔️ Professional Cleaning',
+    '✔️ Full Online Management',
+    '✔️ Update Calendar & Pricing',
+    '✔️ Handle Online Reservations',
+    '✔️ Messaging With Guest',
+    '✔️ Respond to Guest Issues',
+    '✔️ Review Guest',
+    '✔️ Availability 24/7'],
     buttonText: 'Sign up for free',
     buttonVariant: 'outlined',
   },
@@ -74,10 +80,18 @@ const tiers = [
     price: '25%',
     description: [
       '✔️ Check-in / Check-out',
-      '✔️ Professional cleaning',
-      '✔️ Airbnb messaging management',
-      '✔️ Availability 24/7',
-      '✔️ Professional photos and content for your Airbnb listings'
+      '✔️ Professional Cleaning',
+      '✔️ Full Online Management',
+      '✔️ Create New Listing',
+      '✔️ Listing Optimization',
+      '✔️ Update Calendar & Pricing',
+      '✔️ Handle Online Reservations',
+      '✔️ Messaging With Guest',
+      '✔️ Respond to Guest Issues',
+      '✔️ Review Guest',
+      '✔️ Restock Essential & Supplies',
+      '✔️ Availability 24/7'
+
     ],
     buttonText: 'Get started',
     buttonVariant: 'contained',
@@ -133,13 +147,19 @@ You can choose the solution that suits you best.        </p>
     fontWeight: '400',
     fontStyle: 'italic',
     marginBottom: '75px',
-    textTransform: 'none', color:'#868e96' }}> COMMISSION INCL. TAX</small>
+    textTransform: 'none', color:'#868e96' }}> COMMISSION INCL. TAX</small> <br />
+    <small style={{position:"center", fontFamily:'Montserrat, sans-serif', fontSize: '16px',
+    fontWeight: '400',
+    fontStyle: 'italic',
+    textTransform: 'none', color:'#868e96' }}> + cleaning fees*</small>
                     </h1>
                  
                   </div>
                 </CardContent>
-       
+
               </Card>
+              <small>*Cleaning fees are paid by the guest.</small>
+
             </Grid>
           ))}
         </Grid>
