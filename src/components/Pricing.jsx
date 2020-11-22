@@ -64,7 +64,7 @@ const tiers = [
     description: ['✔️ Check-in / Check-out',
     '✔️ Professional cleaning',
     '✔️ Airbnb messaging management',
-    '✔️ Availability 7 days a week',],
+    '✔️ Availability 24/7',],
     buttonText: 'Sign up for free',
     buttonVariant: 'outlined',
   },
@@ -76,7 +76,7 @@ const tiers = [
       '✔️ Check-in / Check-out',
       '✔️ Professional cleaning',
       '✔️ Airbnb messaging management',
-      '✔️ Availability 7 days a week',
+      '✔️ Availability 24/7',
       '✔️ Professional photos and content for your Airbnb listings'
     ],
     buttonText: 'Get started',

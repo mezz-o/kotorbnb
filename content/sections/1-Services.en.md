@@ -6,7 +6,7 @@ services: [
   {
     iconName: "KeyIcon",
     header: "Check-in / Check-out",
-    content: "We manage all the entrances and exits of your guests from Monday to Sunday. We guarantee full availability in order to respond to last minute reservations. "
+    content: "We manage all the entrances and exits of your guests 24/7. We guarantee full availability in order to respond to last minute reservations. "
   },
   {
     iconName: "Home2Icon",
