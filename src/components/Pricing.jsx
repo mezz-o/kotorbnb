@@ -133,10 +133,10 @@ You can choose the solution that suits you best.        </p>
                   className={classes.cardHeader}
                 />
                 <CardContent>
-           
+           <br />
                   <ul>
                     {tier.description.map((line) => (
-                      <Typography component="li" variant="subtitle1" align="center" key={line}>
+                      <Typography component="li" variant="subtitle1" align="auto" key={line}>
                         {line}
                       </Typography>
                     ))}
