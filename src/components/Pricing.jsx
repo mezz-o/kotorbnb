@@ -89,7 +89,6 @@ const tiers = [
       '✔️ Messaging With Guest',
       '✔️ Respond to Guest Issues',
       '✔️ Review Guest',
-      '✔️ Restock Essential & Supplies',
       '✔️ Availability 24/7'
 
     ],
